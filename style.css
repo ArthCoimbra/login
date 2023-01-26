@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+    margin: 0;
+    
+    display: flex;
+    
+}
+
+.img {
+    position: absolute;
+    width: 560px;
+    height: 605px;
+    left: 720px;
+    top: 0px;
+}
+
+
+.boxmaster {
+    position: absolute;
+    width: 572px;
+    height: 472px;
+    left: 74px;
+    top: 54px;
+    
+    background: #24221F;
+    border-radius: 4px;
+}
+
+
+.login {
+    position: absolute;
+    font-size: large;   
+    width: 334px;
+    height: 64px;
+    left: 123px;
+    top: 60px;
+    background: #24221F;
+    color: aliceblue;
+    
+}
+
+.email {
+    position: absolute;
+    width: 335px;
+    height: 53px;
+    left: 123px;
+    top: 150px;
+    background: #24221F;
+    color: aliceblue;
+}
+
+.input1 {
+    width: 320px;
+    height: 25px;
+}
+
+.senha {
+    position: absolute;
+    width: 335px;
+    height: 53px;
+    left: 123px;
+    top: 230px;
+    background: #24221F;
+    color: aliceblue;
+}
+
+.input2 {
+    width: 320px;
+    height: 25px;
+}
+
+.lembre {
+    position: absolute;
+    width: 335px;
+    height: 23px;
+    left: 123px;
+    top: 290px;
+    background: #24221F;
+    color: aliceblue;
+}
+
+.esqueci {
+    margin-left: 100px;
+    font-size: small;
+    color: #FFC632;
+    font-size: 15px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+    position: absolute;
+    width: 334px;
+    height: 51px;
+    left: 123px;
+    top: 320px; 
+    font-size: larger;
+    background: #FFC632;    
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color:darkorange;
+}
+
+.conta {
+    position: absolute;
+width: 235px;
+height: 21px;
+left: 261px;
+top: 431px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: aliceblue;
+}
